@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'presentation/screens/coffeelover_home.dart';
+import 'presentation/screens/checkout_home.dart';
 
-class CoffeeloverApp extends StatelessWidget {
+class CheckoutApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Coffeelover Microfrontend',
+      title: 'CheckOut Microfrontend',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CoffeeloverHome(),
+      home: CheckoutHomeScreen(),
     );
   }
 }
